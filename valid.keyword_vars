@@ -1,0 +1,8 @@
+function iftruewhile():integer{
+    var truestorybro: boolean;
+    return 0;
+}
+
+function Main():integer{
+	return 0;
+}

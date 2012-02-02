@@ -1,0 +1,34 @@
+function functionA():boolean{
+	function functionAA():integer{
+		function functionAAA():integer{
+			function functionAAAA():integer{
+				function ALOLONELINER():boolean{return true;}
+				return 0;
+			}
+			function functionAAAB():boolean{return false;}
+			function functionAAAC():integer{function LOLONELINERA():boolean{function LOLONELINERB():boolean{return true;}return true;}return false;}
+			return 0;
+		}
+		return 0;
+	}
+	return true;
+}
+
+function Main():integer{
+	function MainFunction1():boolean{
+		return true;
+	}
+	return 0;
+}
+
+function functionB():boolean{function functionBA():integer{function functionBAA():integer{function functionBAAA():integer{function BLOLONELINER():boolean{return true;}
+				return 0;
+			}
+			function functionBAAB():boolean{return false;}
+			function functionBAAC():integer{function BLOLONELINERA():boolean{function BLOLONELINERB():boolean{return true;}return true;}return false;}
+			return 0;
+		}
+		return 0;
+	}
+	return true;
+}

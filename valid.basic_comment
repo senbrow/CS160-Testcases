@@ -1,0 +1,5 @@
+(% Testing a valid comment here lol %)
+
+function Main():integer{
+	return 0;
+}
