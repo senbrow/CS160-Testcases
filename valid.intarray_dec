@@ -5,5 +5,7 @@ function Main():integer{
 	var a9: intarray[0777]; (% single var octal literal %)
 	var a10,a11,a12: intarray[0x123ABEF]; (% multiple var hex literal %)
 	var a13: intarray[0xAF0]; (% single var hex literal %)
+	var a14,a15,a16: intarray[011010b]; (% multiple var binary literal %)
+	var a17: intarray[1b]; (% single var binary literal %)
 	return 0;
 }
