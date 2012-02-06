@@ -1,0 +1,12 @@
+function Main():integer{
+	var a:integer;
+	var b:boolean;
+	a = 0;
+	a = -| | | | | a | | | | |;
+	a = -------|----|----a| |;
+	
+	b = -|a|<|a| |||a|==|a|;
+	
+	return |-a|;
+}
+
