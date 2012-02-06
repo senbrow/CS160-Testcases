@@ -1,0 +1,5 @@
+function Main():integer{
+	while(0 != 1;){
+	}
+	return 0;
+}

@@ -1,0 +1,5 @@
+function Main():integer{
+	var a:integer;
+	a == true;
+	return 0;
+}

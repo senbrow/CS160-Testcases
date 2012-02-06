@@ -1,0 +1,4 @@
+function Main():integer{
+	var i: integer[40];
+	return 0;
+}
