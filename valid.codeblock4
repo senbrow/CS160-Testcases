@@ -1,0 +1,6 @@
+function Main():integer{
+    function funcDeclaration():boolean{return true;}
+    a = 25; 
+    b = -1;
+    return 0;
+}

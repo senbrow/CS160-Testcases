@@ -1,0 +1,4 @@
+function Main():integer{
+    a = 25;
+    return 0;
+}

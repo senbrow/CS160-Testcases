@@ -1,0 +1,5 @@
+function Main():integer{
+    var somevar: integer;
+    function funcDeclaration():boolean{return true;}
+    return 0;
+}

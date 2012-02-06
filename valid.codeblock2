@@ -1,0 +1,5 @@
+function Main():integer{
+    function funcDeclarationOne():boolean{return true;}
+    function funcDeclarationTwo():integer{return 0;}
+    return 0;
+}
