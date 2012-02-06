@@ -1,2 +1,0 @@
-Files starting with valid.* should parse with NO errors.
-Files starting with invalid.* should NOT parse and should throw an error.
