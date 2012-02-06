@@ -1,0 +1,11 @@
+function blah(a, b: boolean):integer{
+	return --1;
+}
+
+illegal():boolean{
+	return true;
+}
+
+function Main():integer{
+	return 0;
+}
