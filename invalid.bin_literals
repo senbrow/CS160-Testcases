@@ -1,0 +1,4 @@
+function Main():integer{
+	var a: intarray[b]; (% THIS SHOULD FAIL! b should be scanned as an identifier, when the language demands a literal %)
+	return 0;
+}
