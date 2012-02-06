@@ -1,0 +1,7 @@
+function Main():integer{
+	var a: integer;
+	a = 0xABCDEF01239;
+	a = 0XABC012938D;
+	a = 0x38ab8c9ae; (% this fails because of the lowercase hex literal %)
+	return 0;
+}
