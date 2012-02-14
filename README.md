@@ -4,7 +4,14 @@
 
 * Files starting with invalid.\* should *not* parse and should throw an error.
 
-## As a git Submodule (if you're doing the project right with verson control)
+* You should be able to run a testcase with `./simple testcases/<a file from
+  the repository>` with one of the two configurations below.
+
+## Usage
+
+> NOTICE: Git is preinstalled on CSIL machines.
+
+### As a git Submodule (if you're doing the project right with verson control)
 
 You can add this repository as a submodule to the git
 repository for your project by doing this:
@@ -16,7 +23,7 @@ repository for your project by doing this:
 When you need to update the test cases, cd to the `testcases` folder and do `git
 pull`.
 
-## As a seperate folder (if your project is not under version control)
+### As a seperate folder (if your project is not under version control)
 
 You really should be using version control for your projects. The great thing
 about git is that you can start version control with a plain `git init`.
