@@ -40,8 +40,9 @@ and do:
 
 3. `git push <your user name here> master`
 
-Then go on Github and do a pull request asking Sean to pull from your
-repository's master branch.
+Then go on Github and do a pull request (the button is on your fork of the
+repository asking Sean to pull from your repository's master branch.
 
-If you can't figure this out just email us. 
+**If you can't figure this out just email us the test case or make an issue with
+the code in it.**
 
