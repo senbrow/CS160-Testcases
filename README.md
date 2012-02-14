@@ -38,7 +38,7 @@ pull`.
 
 ## How to contribute
 
-Fork senbrow's CS160-Testcases repositoty in Github. CD to the `testcases` folder,
+Fork senbrow's CS160-Testcases repositoty in Github. `cd` to the `testcases` folder,
 and do:
     
 1. `git remote add <insert your user name here> git://github.com/<insert your user name here>/test.git`
