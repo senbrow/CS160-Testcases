@@ -11,7 +11,7 @@
 
 > NOTICE: Git is preinstalled on CSIL machines.
 
-### As a git Submodule (if you're doing the project right with Git) 
+### As a git Submodule (if you're doing the project with Git) 
 
 You can add this repository as a submodule to the git
 repository for your project by doing this:
