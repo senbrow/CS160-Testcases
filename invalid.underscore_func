@@ -3,5 +3,7 @@ function _a():integer{
 }
 
 function Main():integer{
+	var b:integer;
+	b = _a();
 	return 0;
 }
