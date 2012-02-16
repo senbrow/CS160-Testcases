@@ -1,0 +1,9 @@
+function a():integer{
+	return 0;
+}
+
+function Main():integer{
+	var b:integer;
+	b = (a() + 3);
+	return 0;
+}
