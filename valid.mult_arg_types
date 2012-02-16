@@ -6,6 +6,10 @@ function d(e, f, g, h:boolean; i, j, k, l:integer; m:boolean; n:integer):integer
 	return 0;
 }
 
+function o(p:integer;q:integer;r:integer;s:integer):integer{
+	return 0;
+}
+
 function Main():integer{
 	return 0;
 }
