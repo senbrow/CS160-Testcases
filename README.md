@@ -40,8 +40,8 @@ pull`.
 
 ### Running your program against testcases
 
-Copy this into your `Makefile` and run `make valid_testcases` or `make
-invalid_testcases`.
+Assuming you used one of the schemes above, copy this into your `Makefile` 
+and run `make valid_testcases` or `make invalid_testcases`.
 
 ```
 INVALID_TESTS := ${shell find . -name "invalid.*"}
