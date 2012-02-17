@@ -41,7 +41,12 @@ pull`.
 ### On running your program against testcases en masse
 
 Assuming you used one of the schemes above, copy this into your `Makefile` 
-and run `make valid_testcases` or `make invalid_testcases`.
+and run:
+
+* `make valid_testcases` will test your SIMPLE program against the valid
+  testcases 
+* `make invalid_testcases` will test your SIMPLE program against the invalid
+  testcases
 
 ```
 INVALID_TESTS := ${shell find . -name "invalid.*"}
