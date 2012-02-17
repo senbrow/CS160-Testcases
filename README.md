@@ -43,6 +43,8 @@ pull`.
 Assuming you used one of the schemes above, copy this into your `Makefile` 
 and run:
 
+> WHEN COPYING TO YOUR MAKEFILE, make sure you use TABS and not spaces.
+
 * `make valid_testcases` will test your SIMPLE program against the valid
   testcases 
 * `make invalid_testcases` will test your SIMPLE program against the invalid
