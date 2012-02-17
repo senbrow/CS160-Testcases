@@ -11,7 +11,7 @@
 
 > NOTICE: Git is preinstalled on CSIL machines.
 
-### Getting a copy of the code
+### On copying the code to your machine
 
 #### As a git Submodule (if you're doing the project with Git) 
 
@@ -38,7 +38,7 @@ Anyway, maybe next quarter. For now though:
 When you need to update the test cases, cd to the `testcases` folder and do `git
 pull`.
 
-### Running your program against testcases
+### On running your program against testcases en masse
 
 Assuming you used one of the schemes above, copy this into your `Makefile` 
 and run `make valid_testcases` or `make invalid_testcases`.
