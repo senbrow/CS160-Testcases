@@ -11,7 +11,9 @@
 
 > NOTICE: Git is preinstalled on CSIL machines.
 
-### As a git Submodule (if you're doing the project with Git) 
+### Getting a copy of the code
+
+#### As a git Submodule (if you're doing the project with Git) 
 
 You can add this repository as a submodule to the git
 repository for your project by doing this:
@@ -23,7 +25,7 @@ repository for your project by doing this:
 When you need to update the test cases, cd to the `testcases` folder and do `git
 pull`.
 
-### As a seperate folder (if your project is not under version control)
+#### As a seperate folder (if your project is not under version control)
 
 You really should be using version control for your projects. The great thing
 about git is that you can start version control with a plain `git init`.
@@ -35,6 +37,24 @@ Anyway, maybe next quarter. For now though:
 
 When you need to update the test cases, cd to the `testcases` folder and do `git
 pull`.
+
+### Running your program against testcases
+
+Copy this into your `Makefile` and run `make valid_testcases` or `make
+invalid_testcases`.
+
+```
+INVALID_TESTS := ${shell find . -name "invalid.*"}
+VALID_TESTS := ${shell find . -name "valid.*"}
+
+valid_testing: $(VALID_TESTS) $(TARGET)
+	@echo "STARTING $@"
+	@$(foreach var, $(VALID_TESTS), echo "testing $(var)";./simple < $(var);)
+
+invalid_testing: $(INVALID_TESTS) $(TARGET)
+	@echo "STARTING $@"
+	@$(foreach var, $(INVALID_TESTS), echo "testing $(var)";./simple < $(var);)
+```
 
 ## How to contribute
 
