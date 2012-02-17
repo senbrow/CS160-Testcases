@@ -50,6 +50,7 @@ and run:
   testcases 
 * `make invalid_testcases` will test your SIMPLE program against the invalid
   testcases
+* `make testing` will test your SIMPLE program against all the testcases
 
 ```
 INVALID_TESTS := ${shell find . -name "invalid.*"}
@@ -58,10 +59,14 @@ VALID_TESTS := ${shell find . -name "valid.*"}
 valid_testing: $(VALID_TESTS) $(TARGET)
 	@echo "STARTING $@"
 	@$(foreach var, $(VALID_TESTS), echo "testing $(var)";./simple < $(var);)
+	@echo "ENDING $@"
 
 invalid_testing: $(INVALID_TESTS) $(TARGET)
 	@echo "STARTING $@"
 	@$(foreach var, $(INVALID_TESTS), echo "testing $(var)";./simple < $(var);)
+	@echo "ENDING $@"
+
+testing: valid_testing invalid_testing
 ```
 
 ## How to contribute
