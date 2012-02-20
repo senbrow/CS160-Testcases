@@ -2,7 +2,7 @@
 
 * Files starting with valid.\* should parse with *no* errors.
 
-* Files starting with invalid.<number>.\* should *not* parse and should throw an error on line <number>
+* Files starting with invalid.number.\* should *not* parse and should throw an error on line 'number'
 
 * You should be able to run a testcase with `./simple testcases/<a file from
   the repository>` with one of the two configurations below.
