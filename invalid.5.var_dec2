@@ -1,0 +1,10 @@
+function Main():integer{
+	var somevar: integer;
+	function funcDeclaration():boolean{return true;}
+	while(0<2){
+		var illegalVarTrololo: boolean;
+		somevar = funcDeclaration();
+	}
+	
+	return 0;
+}

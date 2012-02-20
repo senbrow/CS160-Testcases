@@ -1,0 +1,19 @@
+function Main(): integer {
+    var ret: integer;
+    ret = compare(5,25);
+    return ret;
+}
+
+(% returns 1 if numberOne > numberTwo, 0 otherwise %)
+function compare(integer numberOne, numberTwo): integer {
+    var ret: integer;
+
+    if(numberOne > numberTwo) {
+        ret = 1; 
+    } else {
+        ret = 0;     
+    }
+
+    return ret;
+}
+

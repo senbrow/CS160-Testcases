@@ -1,0 +1,7 @@
+function a(b:intarray[100]):integer{
+	return 0;
+}
+
+function Main():integer{
+	return 0;
+}

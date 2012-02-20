@@ -1,0 +1,7 @@
+function blah(a, b, asdfasdf91238_:integer; c, d:boolean;):integer{
+	return 0;
+}
+
+function Main():integer{
+	return -1;
+}

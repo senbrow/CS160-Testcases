@@ -1,0 +1,8 @@
+function foo(): integer {
+    return 0;
+}
+ 
+function Main(): integer {
+    foo();   (% ERROR, foo's return value is not assigned to a variable %) 
+    return 0;
+}
