@@ -2,10 +2,12 @@
 
 * Files starting with valid.\* should parse with *no* errors.
 
-* Files starting with invalid.\* should *not* parse and should throw an error.
+* Files starting with invalid.number.\* should *not* parse and should throw an error on line 'number'
 
 * You should be able to run a testcase with `./simple testcases/<a file from
   the repository>` with one of the two configurations below.
+
+* You can run all testcases with the python script 'runTests.py'. 
 
 ## Usage
 
