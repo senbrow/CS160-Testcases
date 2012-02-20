@@ -1,9 +1,0 @@
-function _a():integer{
-	return 0;
-}
-
-function Main():integer{
-	var b:integer;
-	b = _a();
-	return 0;
-}

@@ -1,4 +1,0 @@
-function Main():integer{
-	(% I am a comment that never finishes!
-	return 0;
-}

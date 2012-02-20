@@ -1,6 +1,0 @@
-function Main():integer{
-	var somevar: integer;
-	function funcDeclaration():boolean{return true;}
-	var illegalVarTrololo: boolean;
-	return 0;
-}

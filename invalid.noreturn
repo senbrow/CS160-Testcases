@@ -1,6 +1,0 @@
-function Main():integer{
-	var a: integer;
-	function somefunc(a, b: integer; c: boolean):boolean{return 
-true;}
-	a = 3 - |5|;
-}
