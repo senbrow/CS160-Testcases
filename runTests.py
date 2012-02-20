@@ -2,8 +2,8 @@ import subprocess as sp
 import os.path
 import sys
 
-runPath = "../"
-ignore = ["README.md",".git",".gitignore","runTests.py"]
+runPath = "../"  # you can change this to the path to your "./simple" executable
+ignore = ["README.md",".git",".gitignore","runTests.py"] # the script will complain if any files not on this list don't have the proper filename format
 
 if __name__ == "__main__":
   

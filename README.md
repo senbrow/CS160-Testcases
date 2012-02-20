@@ -7,6 +7,8 @@
 * You should be able to run a testcase with `./simple testcases/<a file from
   the repository>` with one of the two configurations below.
 
+* You can run all testcases with the python script 'runTests.py'. 
+
 ## Usage
 
 > NOTICE: Git is preinstalled on CSIL machines.
