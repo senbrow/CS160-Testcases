@@ -1,0 +1,11 @@
+function Main(): integer {
+	var a, b: integer;
+	function kme(): integer {
+		a = 9;
+		return a + 1;
+	}
+	a = a + 1;
+	b = 5;
+	a = kme();
+	return a+b;
+}
