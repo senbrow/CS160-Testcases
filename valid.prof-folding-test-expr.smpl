@@ -1,0 +1,5 @@
+function Main(): boolean {
+        var a: integer;
+        return (35+6*a*0) > (0/5) && true;
+}
+
