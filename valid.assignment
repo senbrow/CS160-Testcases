@@ -28,7 +28,7 @@ function Main():integer{
 	e = false;
 	f = d;
 	
-	a = d && e;
+	f = d && e;
 	b = a <= 4 && b >= c || a != b && c == a || b < a && d > 3 || !a || !(b && c);
 	c = boolFunc();
 	
