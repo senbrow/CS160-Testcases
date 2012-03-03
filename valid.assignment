@@ -29,7 +29,7 @@ function Main():integer{
 	f = d;
 	
 	f = d && e;
-	e = a <= 4 && b >= c || a != b && c == a || b < a && d > 3 || !d || !(e && f);
+	e = a <= 4 && b >= c || a != b && c == a || b < a && c > 3 || !d || !(e && f);
 	c = boolFunc();
 	
 	(% intarray assignment %)
