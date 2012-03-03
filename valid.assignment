@@ -30,7 +30,7 @@ function Main():integer{
 	
 	f = d && e;
 	e = a <= 4 && b >= c || a != b && c == a || b < a && c > 3 || !d || !(e && f);
-	c = boolFunc();
+	d = boolFunc();
 	
 	(% intarray assignment %)
 	g[0] = 0xAB923;
