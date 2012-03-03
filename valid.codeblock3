@@ -1,4 +1,5 @@
 function Main():integer{
+    var a: integer;
     a = 25;
     return 0;
 }
