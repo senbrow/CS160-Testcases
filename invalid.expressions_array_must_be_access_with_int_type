@@ -1,0 +1,8 @@
+function Main(): integer {
+    var c: integer;
+	var x: intarray[0x12];
+
+    c = x[true];
+
+	return 0;
+}
