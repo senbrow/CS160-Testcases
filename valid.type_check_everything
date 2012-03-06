@@ -1,0 +1,26 @@
+function boolean_func():boolean{
+	return true;
+}
+
+function integer_func():integer{
+	return 0;
+}
+
+function Main():integer{
+	var inta, intb, intc: integer;
+	var boola, boolb, boolc: boolean;
+	var arra, arrb: intarray[10];
+	
+	inta = -|intb| * 3 / intc + 20 - (inta -- arra[2]);
+	intb = integer_func();
+	intc = -|arra[arrb[--|intc * 2|]]|;
+	
+	boola = (inta < 3 * 4) && (arrb[1 * 20 / intb] <= arra[0]) == (3 > 5 - 3) || !false;
+	boolb = (inta >= |intb|) && (inta == 0x9123) || !true && !(inta != arrb[3]) || (boola != boolb) && (boolc == !!false);
+	boolc = boolean_func();
+	
+	arra[0] = integer_func();
+	arrb[1] = -|-1| * arra[0];
+	
+	return 20 * arra[0] / inta;
+}
