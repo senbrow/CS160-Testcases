@@ -9,7 +9,7 @@ function Main(): integer {
 	d = c*(a)+b;
 	f = -|a|>|a| || |a|==|a|;
 	e = -|-189|;
-	g = (a[false] >= 007) || (b[true&&7-14 < 12 || !c[-a]] != 70 && b!= 71);
+	j = (z[false] >= 007) || (x[56] != 70 && b!= 71);
 	h = 1 || (c == 1 && !f <= -d[(|-a / !b[-a[!true]]|) * 01111b]);
 
 	return 0;
