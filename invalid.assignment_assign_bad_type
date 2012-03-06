@@ -1,0 +1,45 @@
+function intFunc(arg1: integer):integer{
+	return 0x93;
+}
+
+function boolFunc():boolean{
+	return false;
+}
+
+function Main():integer{
+	var a, b, c: integer;
+	var d, e, f: boolean;
+	var g, h: intarray[0xA];
+	
+	(% Integer assignment %)
+	a = 0;
+	b = 0xAB0;
+	c = 07462;
+	
+	a = b;
+	b = c;
+	c = |b * c + 2 - (5 - a)|;
+	
+	a = intFunc(b);
+	b = -a;
+	
+	(% Boolean assignment %)
+	d = true;
+	e = false;
+	f = d;
+	
+	a = d && e;
+	b = a <= 4 && b >= c || a != b && c == a || b < a && d > 3 || !a || !(b && c);
+	c = boolFunc();
+	
+	(% intarray assignment %)
+	g[0] = 0xAB923;
+	g[11 * 2] = 0711623;
+	g[a] = 0;
+	
+	h[3] = g[g[0]];
+	h[g[h[1]] * 3 - 0] = intFunc(g[0x1]);
+	
+	
+	return 0;
+}
