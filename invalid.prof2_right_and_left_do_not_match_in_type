@@ -1,15 +1,11 @@
-function printint(m: integer): integer {
-    return m;
-}
-
 function Main(): integer {
 	var j, k, m, n: integer;
 	var x: intarray[19];
 	var b: boolean;
 
-	function foo(inc: integer): integer {
+	function foo(inc: integer): boolean {
 		m = m + inc;
-		return 1;
+		return true;
 	}
 
 	j = 2;
@@ -20,3 +16,4 @@ function Main(): integer {
 	x[1] = 1;
  	return x[7+1];
 }
+

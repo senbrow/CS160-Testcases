@@ -1,5 +1,4 @@
 function Main():integer{
-    var a, b: integer;
     function funcDeclaration():boolean{return true;}
     a = 25; 
     b = -1;
