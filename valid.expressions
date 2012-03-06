@@ -10,7 +10,7 @@ function Main(): integer {
 	f = -|a|>|a| || |a|==|a|;
 	e = -|-189|;
 	j = (z[false] >= 007) || (x[56] != 70 && b!= 71);
-	h = 1 || (c == 1 && !f <= -d[(|-a / !b[-a[!true]]|) * 01111b]);
+	h = false || (c == 1 && !f <= -z[(|-a / x[-y[65]]|) * 01111b]);
 
 	return 0;
 }
