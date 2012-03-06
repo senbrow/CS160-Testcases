@@ -1,0 +1,68 @@
+function array(ax: integer): boolean
+{
+  var a: intarray[12];
+  var b: intarray[12];
+  var x: integer;
+  var z: integer;
+
+  a[2+3] = b[0];
+	
+  a[0] = x*7 + b[1];
+
+  z = array(ax);
+
+  return false;
+}
+
+function Main(): integer
+{
+    var x: integer;
+    var k, j: integer;
+    var t: boolean;
+
+    x = 5;
+    if (x < 3) {
+        x = 7;
+    }
+    if (x <3) {
+        x = 9;
+    }
+    else {
+        if (t == true) {
+            x = 12;
+        }
+    }
+   
+    return 0;
+}
+
+function f(ax: integer): integer
+{
+    var d: boolean;
+
+    function nested(): boolean
+    {
+        var i, a: integer;
+	return j-a == 12;
+    }
+
+    return -(---k+j*k/x);
+}
+
+function main(a: integer): boolean
+{
+    var i: integer;
+
+    function tain(int: integer): boolean
+    {
+        return false || true;
+    }
+    return (2+2*4) < 3;
+}
+
+function main1(ax: integer): boolean
+{
+    var i: integer;
+    return (2+2*4) < 3;
+}
+

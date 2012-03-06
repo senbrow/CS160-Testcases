@@ -1,0 +1,17 @@
+function dummyFunc(a:integer):boolean{
+	return ((((0)*0)-0)+0) == (0+0);
+}
+
+function Main():integer{
+	var a: integer;
+	a = ((((((((((0))))))))));
+	a = ((4*2)-(4)+a*(a/3)*(((3))));
+	while(((a == a) || (false || (3<4)))){
+		if((a > 3) || (4 < 2)){
+			a = dummyFunc((a*3)/4);
+		}else{
+			
+		}
+	}
+	return 0;
+}

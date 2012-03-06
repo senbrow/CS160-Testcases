@@ -1,0 +1,19 @@
+function Main(): integer {
+	var j, k, m, n: integer;
+	var x: intarray[19];
+	var b: boolean;
+
+	function foo(inc: integer): boolean {
+		m = m + inc;
+		return true;
+	}
+
+	j = 2;
+	k = - j;
+	m = 100 - k * k;
+	x[1] = foo( 1 );
+	n = printint( m );
+	x[1] = 1;
+ 	return x[7+1];
+}
+
