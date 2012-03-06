@@ -4,7 +4,7 @@ function Main(): integer {
 	var x,y,z: intarray[0x12];
 
 	a = 12 + 3 * (5 - 12) / 20;
-	b = |-a[2+7]| + !0x01 - (10b + 07);
+	b = |-x[2+7]| + 0x01 - (10b + 07);
 	c = (|-a / !b[-a[!true]]|) * 01111b;
 	d = c*(a)+!b;
 	e = -|a|>|a| || |a|==|a|;
