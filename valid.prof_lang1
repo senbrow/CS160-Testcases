@@ -1,4 +1,4 @@
-function array(ax: integer): boolean
+function array(ax: integer): integer
 {
   var a: intarray[12];
   var b: intarray[12];
@@ -11,7 +11,7 @@ function array(ax: integer): boolean
 
   z = array(ax);
 
-  return false;
+  return 1;
 }
 
 function Main(): integer
@@ -38,15 +38,15 @@ function Main(): integer
 
 function f(ax: integer): integer
 {
-    var d: boolean;
+    var d: integer;
 
     function nested(): boolean
     {
         var i, a: integer;
-	return j-a == 12;
+	return i-a == 12;
     }
 
-    return -(---k+j*k/x);
+    return -(---ax+d*ax/d);
 }
 
 function main(a: integer): boolean
