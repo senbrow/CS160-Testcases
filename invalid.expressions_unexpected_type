@@ -1,0 +1,16 @@
+function Main(): integer {
+	var a,b,c,d,e: integer;
+	var f,g,h,i,j: boolean;
+	var x,y,z: intarray[0x12];
+
+	a = 12 + 3 * (5 - 12) / 20;
+	b = |-a[2+7]| + !0x01 - (10b + 07);
+	c = (|-a / !b[-a[!true]]|) * 01111b;
+	d = c*(a)+!b;
+	e = -|a|>|a| || |a|==|a|;
+	f = -|-true|;
+	g = (a[false] >= 007) || (b[true&&7-14 < 12 || !c[-a]] != 70 && b!= 71);
+	h = 1 || (c == true && !f <= -d[(|-a / !b[-a[!true]]|) * 01111b]);
+
+	return 0;
+}

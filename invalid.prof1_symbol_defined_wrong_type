@@ -6,8 +6,9 @@ function Main(): integer
 	j = 2;
 	k = -j;
 	m = 100 - k * k;
-	(% n = printint( m ); %)
+	n = printint( m );
 	(%%jhasfa%fasf%$sfsafasf%(df%sdfasfsafa%%)
 
 	return 0;
 }
+

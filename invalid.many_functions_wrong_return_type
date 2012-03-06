@@ -6,7 +6,7 @@ function functionA():boolean{
 				return 0;
 			}
 			function functionAAAB():boolean{return false;}
-			function functionAAAC():boolean{function LOLONELINERA():boolean{function LOLONELINERB():boolean{return true;}return true;}return false;}
+			function functionAAAC():integer{function LOLONELINERA():boolean{function LOLONELINERB():boolean{return true;}return true;}return false;}
 			return 0;
 		}
 		return 0;
@@ -25,7 +25,7 @@ function functionB():boolean{function functionBA():integer{function functionBAA(
 				return 0;
 			}
 			function functionBAAB():boolean{return false;}
-			function functionBAAC():integer{function BLOLONELINERA():boolean{function BLOLONELINERB():boolean{return true;}return true;}return 5;}
+			function functionBAAC():integer{function BLOLONELINERA():boolean{function BLOLONELINERB():boolean{return true;}return true;}return false;}
 			return 0;
 		}
 		return 0;

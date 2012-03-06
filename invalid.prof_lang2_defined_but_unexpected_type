@@ -1,12 +1,11 @@
-function Main(): boolean
+function Main(x: integer; y: boolean): boolean
 {
 	var a, b: intarray[100];
 	var c: integer;
-    var x: integer;
 	c = -5;
 	a[19] = 24 + 3;
 	a[4+2] = 5;
-	b[2] = a[2];
+	b = a;
 	b[3] = b[6] + b[19] + |c|;
 	return (x > -c);
 }
