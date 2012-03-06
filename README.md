@@ -4,7 +4,7 @@
 
 * Files starting with invalid.\* should *not* parse and should throw an error.
 
-* You should be able to run a testcase with `./simple testcases/<a file from
+* You should be able to run a testcase with `./simple < testcases/<a file from
   the repository>` with one of the two configurations below.
 
 ## Usage
@@ -38,8 +38,8 @@ pull`.
 
 ## How to contribute
 
-Fork senbrow's CS160-Testcases repositoty in Github. `cd` to the `testcases` folder,
-and do:
+Fork senbrow's CS160-Testcases git repository in Github. `cd` to the
+`testcases` folder, and do:
     
 1. `git remote add <insert your user name here> git://github.com/<insert your user name here>/test.git`
 
@@ -48,7 +48,8 @@ and do:
 3. `git push <your user name here> master`
 
 Then go on Github and do a pull request (the button is on your fork of the
-repository asking Sean to pull from your repository's master branch.
+repository asking Sean to pull from your repository's master branch). Github
+should show a yellow box where you can do a pull request.
 
 **If you can't figure this out just email us the test case or make an issue with
 the code in it.**
