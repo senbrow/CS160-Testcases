@@ -1,0 +1,69 @@
+function boolFuncNoArgs():boolean{
+	var a:boolean;
+	function uselessFunc(b:boolean):boolean{
+		return a == b;
+	}
+	a = false && a;
+	a = uselessFunc(a);
+	return a;
+}
+
+function intFuncNoArgs():integer{
+	var a:integer;
+	function uselessFunc(b:integer):integer{
+		var c:integer;
+		function uselessFunc():integer{
+			return c * b * a * 0;
+		}
+		c = uselessFunc();
+		return c * 0;
+	}
+	a = 0 * a;
+	return a;
+}
+
+function Main():integer{
+	var inta, intb:integer;
+	var boola:boolean;
+	var arra:intarray[10];
+	
+	inta = inta * 3;
+	inta = inta * 0;
+	inta = intFuncNoArgs();
+	inta = 4;
+	inta = --|inta * inta / inta - inta + inta|;
+	
+	intb = inta * 3;
+	inta = intb;
+	
+	arra[0] = -inta;
+	arra[0] = intb * inta;
+	
+	if(inta < intb){
+		inta = 0;
+	}
+	
+	intb = inta;
+	
+	if(inta == intb){
+		intb = 1;
+	}else{
+		intb = 1;
+	}
+	
+	inta = intb;
+	
+	intb = intFuncNoArgs();
+	
+	if(intb != inta){
+		intb = 3;
+	}else{
+		intb = arra[0];
+	}
+	
+	boola = intb >= intb && false;
+	boola = boolFuncNoArgs();
+	boola = intb <= inta || true;
+	
+	return 0 / inta;
+}
