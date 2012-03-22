@@ -1,0 +1,55 @@
+function b(a:integer):boolean{
+	var b:boolean;
+	if(a < 15 && a >= 2){
+		b = true;
+	}else{
+		b = false && b;
+	}
+	return b;
+}
+
+function a(a:integer):integer{
+	var i:integer;
+	var numbers:intarray[16];
+	var continue, inRange:boolean;
+
+	i = 2;
+	if(true){
+		if(true){
+			if(false){
+				i = 7969;
+			}else{
+				numbers[i - 1] = 1;
+				numbers[i - 2] = numbers[i - 1];
+				numbers[a - 1] = -1;
+			}
+		}else{
+			i = 12312;
+		}
+	}
+	
+	inRange = b(a);
+	if(inRange){
+		continue = true || continue;
+	}else{
+		continue = false;
+	}
+	
+	while(continue){
+		numbers[i] = numbers[i - 1] + numbers[i - 2];
+		i = i + 1;
+		continue = i < a;
+		while(false && continue){
+			i = 213498124;
+		}
+	}
+	return numbers[a - 1];
+}
+
+function Main():integer{
+	var c:intarray[5];
+	c[0] = 2;
+	c[c[0]] = c[0] * 5 + 1;
+	c[c[0] + 1] = a(c[c[0]]);
+	return c[c[0] + 1];
+}

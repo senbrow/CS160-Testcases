@@ -1,0 +1,19 @@
+function fib(target:integer):integer{
+	var tmp:integer;
+	if(target <= 1){
+		target = 1;
+	}else{
+		tmp = fib(target - 1);
+		target = fib(target - 2);
+		target = target + tmp;
+	}
+	
+	return target;
+}
+
+function Main():integer{
+	var a:intarray[2];
+	a[0] = 1;
+	a[1] = fib(11);
+	return a[a[0]];
+}

@@ -1,0 +1,35 @@
+function b():integer{
+	return -42;
+}
+
+function c():boolean{
+	if(true){
+		if(false){
+		
+		}else{
+			while(false){}
+		}
+	}
+	return false && true;
+}
+
+function d(a, b, c: integer; d: boolean; e, f:integer; g:integer):integer{
+	var h:intarray[1];
+	if(d && e == f){
+		h[0] = a * b - c + g;
+	}
+	return h[0];
+}
+
+function Main():integer{
+	var a:intarray[5];
+	var someBool:boolean;
+	
+	someBool = c();
+	
+	a[0] = 2;
+	a[a[0]] = -5;
+	a[a[0] + 1] = b();
+	a[a[0] + 2] = d(4, 3, 12, !someBool, 12 / 6, |a[a[0] + 1] + 44|, 1);
+	return a[a[0] + 1] * a[a[0] + 2];
+}
